@@ -2,10 +2,11 @@ import Aside from "./_aside";
 import { HiArrowSmallLeft } from "react-icons/hi2";
 import { HiArrowSmallRight } from "react-icons/hi2";
 import React, { useState, useEffect } from "react";
+import Cursos from "./cursos";
 
 
 const Asignaturas = () => {
-const [valorInput, setValor] = useState()
+
 
     
 return(
@@ -22,37 +23,22 @@ return(
     <div className= " flex justify-between  uppercase  bg-[#925FE2] bg-opacity-30 p-[0.9rem]   rounded-3xl mr-20 mt-8">
         <HiArrowSmallLeft className="text-3xl" />   <h1 className="text-gray-700 text-center ">   Cursos actuales </h1> <button className="flex low gap-2">Proximos cursos <HiArrowSmallRight className="text-3xl"/></button>
     </div>
-    <input type="file" name="" id="ss" 
-    onChange={(e) => setValor(e.target.value)}
-    
-    
-    />
-  
-   
+<div></div>
+    <input type="search " className="p-2 rounded-3xl pr-10 mt-16 ml-20 mb-12 bg-[#F6F6F6] "  placeholder="Buscar asignatura" name="" id="" />
   </nav>
-
   
-        <div className="border-8 border-red-700   w-[30%] h-2/5 ">
-            <h1> hosla</h1>
+        <div className="flex mb-20 flex-wrap gap-10  ">
+            <Cursos/>
+            <Cursos/>
+            <Cursos/>
+            <Cursos/>
+            <Cursos/>
+            <Cursos/>
+            <Cursos/>
+            <Cursos/>
+            <Cursos/>
         </div>
-        <div className="border-8  border-red-700  w-[30%] h-2/5 ">
-            <h1> hola</h1>
-        </div>
-        <div className="border-8 border-red-700   w-[30%] h-2/5 ">
-            <h1> holas</h1>
-        </div>
-        <div className="border-8 border-red-700   w-[30%] h-2/5 ">
-            <h1> holsa</h1>
-        </div>
-        <div className="border-8 border-red-700   w-[30%] h-2/5 ">
-            <h1> hosla</h1>
-        </div>
-        <div className="border-8 border-red-700   w-[30%] h-2/5 ">
-            <h1> hosla</h1>
-        </div>
-        <div className="border-8 border-red-700   w-[30%] h-2/5 ">
-            <h1> hosla</h1>
-        </div>
+        
         
         
         
