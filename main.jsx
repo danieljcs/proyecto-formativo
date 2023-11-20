@@ -1,12 +1,13 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import './assets/css/index.css'
+import './src/assets/css/index.css'
 import { Router, RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Home from './Home.jsx'
-import _aside from './_aside.jsx'
-import Horario from './horario.jsx'
-import Asignaturas from './asignaturas.jsx'
-import Formulario from './inicioSesion.jsx'
+import Home from './src/components/Home.jsx'
+import Horario from './src/components/horario.jsx'
+import Asignaturas from './src/components/asignaturas.jsx'
+import Formulario from './src/components/InicioSesion.jsx'
+
+
 
 
 

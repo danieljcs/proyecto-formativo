@@ -11,12 +11,7 @@ import React, { useState } from 'react';
 
 
 const Aside = () => {
-    const [menuVisible, setMenuVisible] = useState(false);
-
-    const toggleMenu = () => {
-      setMenuVisible(!menuVisible);
-    };
-
+   
   return (
 <>
 <div className='flex'>
@@ -35,38 +30,38 @@ const Aside = () => {
     </li>
     <ul className="flex-col space-y-2 justify-center pl-3  gap-4 inline-flex items">
         <li className="justify-start items-center gap-3 inline-flex">
-            <a href="/home"className="text-center text-zinc-100 text-base font-semibold font-semibold" >Inicio</a>
+            <a href="/home"className="text-center text-zinc-100 text-base font-normal " >Inicio</a>
         </li>
         <li className="justify-start items-center gap-2 inline-flex">
-        <BiUser className='text-white ml-2' /> <a href=""className="text-center text-zinc-100 text-base font-semibold font-semibold" >Usuario </a>
+        <BiUser className='text-white ml-2' /> <a href=""className="text-center text-zinc-100 text-base font-normal font-normal" >Usuario </a>
         </li>
         <li className="justify-start items-center gap-3 inline-flex">
-            <a href="/Asignaturas"className="text-center text-zinc-100 text-base  font-semibold" >Mis asignaturas</a>
+            <a href="/Asignaturas"className="text-center text-zinc-100 text-base  font-normal" >Mis asignaturas</a>
         </li>
         <li className="justify-start items-center gap-3 inline-flex">
-            <a href=""className="text-center text-zinc-100  font-semibold" >Calendario</a>
+            <a href=""className="text-center text-zinc-100  font-normal" >Calendario</a>
         </li>
         <li className="justify-start items-center gap-3 inline-flex">
-            <a href=""className="text-center text-zinc-100 text-base font-semibold" >Notas</a>
+            <a href=""className="text-center text-zinc-100 text-base font-normal" >Notas</a>
         </li>
         <li className="justify-start items-center gap-3 inline-flex">
-            <a href=""className="text-center text-zinc-100 text-base  font-semibold" >Observaciones </a>
+            <a href=""className="text-center text-zinc-100 text-base  font-normal" >Observaciones </a>
         </li>
         <li className="justify-start items-center gap-3 inline-flex">
-            <a href=""className="text-center text-zinc-100 text-base  font-semibold" >Correo </a>
+            <a href=""className="text-center text-zinc-100 text-base  font-normal" >Correo </a>
         </li>
         <li className="justify-start items-center gap-3 inline-flex">
-            <a href="/Horario"className="text-center text-zinc-100 text-base  font-semibold" >Horario de clases</a>
+            <a href="/Horario"className="text-center text-zinc-100 text-base  font-normal" >Horario de clases</a>
         </li>
         <li className="justify-start items-center gap-3 inline-flex">
-            <a href=""className="text-center text-zinc-100 text-base  font-semibold" >Himno institucional </a>
+            <a href=""className="text-center text-zinc-100 text-base  font-normal" >Himno institucional </a>
         </li>
         <li className="justify-start items-center gap-2 inline-flex">
-        <FiSettings className='text-white ml-2' /> <a href=""className="text-center text-zinc-100 text-base font-semibold font-semibold" >Configuracion </a>
+        <FiSettings className='text-white ml-2' /> <a href=""className="text-center text-zinc-100 text-base font-normal font-normal" >Configuracion </a>
         </li>
         
         <li className="justify-start items-center  mt-4 inline-flex">
-             <a className="text-center text-white text-opacity-75 text-base  font-semibold" href="">Cerrar Sesión</a>
+             <a className="text-center text-white text-opacity-75 text-base  font-normal" href="">Cerrar Sesión</a>
         </li>
 
        
