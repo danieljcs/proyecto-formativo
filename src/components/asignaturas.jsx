@@ -28,7 +28,7 @@ return(
     <input type="search " className="p-2 rounded-3xl font-normal pr-10 mt-16 ml-20 mb-12 bg-[#F6F6F6] "  placeholder="Buscar asignatura" name="" id="" />
   </nav>
   
-        <div className="flex mb-20  flex-wrap gap-11 ">
+        <div className="flex mb-20  flex-wrap gap-8 z-0  ">
             <Cursos titulo="Castellano" profesor="Marco"/>
             <Cursos titulo="matematicas" profesor="Cecilia"   />
             <Cursos titulo="Ingles" profesor="Anotonio"/>
