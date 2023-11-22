@@ -1,13 +1,14 @@
+import { Link } from "react-router-dom"
 
 
 const Cursos = ({titulo, profesor, src}) =>{
 
     return(
 <>
-<div className=" flex  flex-col   w-[30%] h-2/5  ">
-           <button>
-            <img src="s.jpg" alt=""   className="  h-[65%]" />
-           </button>
+<div className=" flex  flex-col hover:scale-105 transition-[2s]  w-[30%] h-2/5  ">
+           <Link to={"/DetallesAsignatura/Informacion"}>
+                <img src="s.jpg" alt=""   className="  h-[65%]" />
+           </Link>
            <div className="bg-white   h-[35%]">
                 <p className= "mt-4 ml-2  text-gray-400 font-semibold text-[0.7rem]">
                     1-28 july 2023
