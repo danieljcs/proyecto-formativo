@@ -5,7 +5,7 @@ const Cursos = ({titulo, profesor, src}) =>{
 
     return(
 <>
-<div className=" flex  flex-col hover:scale-105 transition-[2s]  w-[30%] h-2/5  ">
+<div className=" flex  flex-col hover:scale-105 transition-[2s]  w-[100%] h-2/5  ">
            <Link to={"/DetallesAsignatura/Informacion"}>
                 <img src="s.jpg" alt=""   className="  h-[65%]" />
            </Link>
