@@ -1,6 +1,6 @@
-import Aside from "./_aside"
+import Aside from '../../_aside';
 import { IoAddCircleOutline } from 'react-icons/io5';
-import _navbar from "./_navbar";
+import _navbar from '../../_navbar';
 
 
 
@@ -9,16 +9,16 @@ const Himno = () => {
 
 return (
 <>
-<div className="flex  bg-[#A6DCF1] h-screen">
+<div className="flex  bg-[#A6DCF1] ">
  
         <aside className="w-[20%] flex flex-wrap ">
             <Aside/>
         </aside>
    <div className=" flex flex-col  2x1:mr-[4.5rem]  max-[1455px]:mr-20 w-full justify-center  items-center ">
-     <div className="flex bg-[#AEE4F5] rounded-3xl shadow-3xl shadow-[0_8px_48px_8px_rgba(0,0,0,0.08)] w-[1032px] p-[32px] h-[900px]">
+     <div className="flex bg-[#AEE4F5] rounded-3xl shadow-3xl shadow-[0_8px_48px_8px_rgba(0,0,0,0.08)] w-[1032px] p-[32px] h-[700px]">
      <div className=" w-[1080px]">
 
-        <div className=" flex w-full justify-center overflow-y-scroll  display-block bg-[#FFFFFF] h-[840px] bg-opacity-100 h-96 rounded-2xl" >
+        <div className=" flex w-full justify-center overflow-y-scroll  display-block bg-[#FFFFFF] h-[100%] bg-opacity-100 rounded-2xl" >
             <div className= "font-semibold text-2xl">
                 <br />
                 <h1>Himno de la institucion educativa San Grabiel</h1>

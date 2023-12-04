@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import Aside from "./_aside"
-import _navbar from './_navbar'
+import Aside from '../../_aside';
+import _navbar from '../../_navbar';
 
 
 
@@ -12,13 +12,13 @@ const  Home = () => {
   return (
 <>
   <div className='h-screen  flex  bg-[#A6DCF1] '>
-    <div className=' w-[18%] max-[1990px]:w-[20%]  max-[1375px]:w-[10%] '>
+    <div className=' w-[18%] l max-[1990px]:w-[20%]  max-[1375px]:w-[10%] '>
       <Aside/>
     </div>
-    <div className='w-[80%] min-[2000px]:w-[80%] h-[20rem] min-[2000px]:mt-[2rem]   '>
+    <div className='w-[80%]   h-[20rem] min-[2000px]:mt-[2rem]   '>
       <_navbar/>
    
-      <div className='w-[90%] min-[1990px]:justify-around ]  mt-20   flex items-center gap-2 min-[1990px]:h-[26rem]  justify-around  rounded-2xl bg-gradient-to-t from-indigo-700 via-indigo-500 to-indigo-400 '>
+      <div className='w-[90%] min-[1990px]:justify-around ] overflow-y-scroll  mt-20   flex items-center gap-2 min-[1990px]:h-[26rem]  justify-around  rounded-2xl bg-gradient-to-t from-indigo-700 via-indigo-500 to-indigo-400 '>
         <div className='flex flex-col o gap-2  flex-wrap'>
           <p className='text-white font-light mb-10 text-[1rem] ' > Septiembre 3 de 2023</p>
           <h1 className='text-white font-bold text-[2.5rem]'>Bienvenido Estudiante</h1>
@@ -29,7 +29,7 @@ const  Home = () => {
         </div>
        </div>
 
-       <div className='mt-16   '>
+       <div className='mt-16    '>
        <h1 className=' font-semibold h-full text-2xl  ' >¿Que quieres consultar?</h1>
           <div className='flex  gap-20'>
               
@@ -47,7 +47,9 @@ const  Home = () => {
                 <h1 className='font-medium text-2xl'>Asistencias</h1>
               </button>
               
+              
           </div>
+          
        </div>
        
 

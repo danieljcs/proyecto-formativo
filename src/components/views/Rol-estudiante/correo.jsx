@@ -1,6 +1,6 @@
 import React from 'react';
-import Aside from './_aside';
-import _navbar from './_navbar';
+import Aside from '../../_aside';
+import _navbar from '../../_navbar';
 
 
 const Correo = () => {

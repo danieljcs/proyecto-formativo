@@ -1,4 +1,4 @@
-import Aside from "./_aside"
+import Aside from '../../_aside';
 import { IoAddCircleOutline } from 'react-icons/io5';
 
 

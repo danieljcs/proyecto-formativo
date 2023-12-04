@@ -13,6 +13,16 @@ import InformacionA from './src/components/views/Rol-estudiante/informacionA.jsx
 import Observaciones from './src/components/views/Rol-estudiante/observaciones.jsx'
 import Asistencia from './src/components/views/Rol-estudiante/asistencia.jsx'
 import Himno from './src/components/views/Rol-estudiante/himno.jsx'
+import Calificaciones from './src/components/views/Rol-estudiante/calificaciones.jsx'
+import Notas from './src/components/views/Rol-estudiante/notas.jsx'
+import Perfil from './src/components/views/Rol-estudiante/perfil.jsx'
+import Informacion from './src/components/views/Rol-estudiante/informacionES.jsx'
+import Gestionaru from './src/components/views/Rol-coordinador/gestionaru.jsx'
+import Panel from './src/components/views/Rol-coordinador/Panel.jsx'
+import AsistenciasD from './src/components/views/Rol-coordinador/asistencias.jsx'
+import Calendario from './src/components/views/Rol-estudiante/calendario.jsx'
+import Asistenciafor from './src/components/views/Rol-coordinador/asistenciasEstudiantes.jsx'
+import Tarea from './src/components/views/Rol-coordinador/AdministrarAreas.jsx'
 
 
 
@@ -24,7 +34,7 @@ import Himno from './src/components/views/Rol-estudiante/himno.jsx'
 
 
 
-
+//define las rutas de la app de react 
 
 
 const router = createBrowserRouter([
@@ -36,7 +46,7 @@ element :<Formulario/>
 path:"/DetallesAsignatura",
 element :<AsignaturasDetalles/>,
 children:[{
-
+//estas serian las rutas hijas de un aruta principal
     path:"Tematicas",
     element:<Tematicas/> 
     
@@ -48,7 +58,12 @@ children:[{
 {
   path:"Asistencias",
   element:<Asistencia/>
-}
+},
+{
+  path:"Calificaciones",
+  element:<Calificaciones/>
+},
+
 
 ]
   
@@ -80,10 +95,52 @@ element:<Himno/>
 {
   path:"/Correo",
   element:<Correo/>
+},
+{
+  path:"Notas",
+  element:<Notas/>
+},
+{
+  path:"perfil",
+  element:<Perfil/>
+},
+{
+  path: "/Informacion",
+  element: <Informacion/>
+  },
+// roles coordinador
+  {
+    path:"Gestion",
+    element:<Gestionaru/>
+  },
+  {
+    path:"Panel",
+    element:<Panel/>
+  },
+{
+  path:"AsitenciasD",
+  element:<AsistenciasD/>
+},
+{
+  path:"Calendario",
+  element:<Calendario/>
+},
+{
+  path:"AsistenciasEstudiantes",
+  element:<Asistenciafor/>
+
+},
+{
+  path:"Areas",
+  element:<Tarea/>
+
 }
 
 
 
+
+
+  
 
 
 
