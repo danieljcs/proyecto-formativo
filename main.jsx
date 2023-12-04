@@ -34,6 +34,8 @@ import Tarea from './src/components/views/Rol-coordinador/AdministrarAreas.jsx'
 
 
 
+
+
 //define las rutas de la app de react 
 
 
