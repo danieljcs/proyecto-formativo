@@ -23,6 +23,8 @@ import AsistenciasD from './src/components/views/Rol-coordinador/asistencias.jsx
 import Calendario from './src/components/views/Rol-estudiante/calendario.jsx'
 import Asistenciafor from './src/components/views/Rol-coordinador/asistenciasEstudiantes.jsx'
 import Tarea from './src/components/views/Rol-coordinador/AdministrarAreas.jsx'
+import ObservadorOpc from './src/components/views/Rol-coordinador/ObservadorOpc.jsx'
+import RegistroObservador from './src/components/views/Rol-coordinador/registroObservador.jsx'
 
 
 
@@ -46,7 +48,7 @@ element :<Formulario/>
 path:"/DetallesAsignatura",
 element :<AsignaturasDetalles/>,
 children:[{
-//estas serian las rutas hijas de un aruta principal
+//estas serian las rutas hijas de una ruta principal
     path:"Tematicas",
     element:<Tematicas/> 
     
@@ -134,7 +136,20 @@ element:<Himno/>
   path:"Areas",
   element:<Tarea/>
 
+},
+{
+  path:"Observador",
+  element:<ObservadorOpc/>
+
+},
+{
+  path:"RegistrarObservacion",
+  element:<RegistroObservador/>
+
 }
+
+
+
 
 
 

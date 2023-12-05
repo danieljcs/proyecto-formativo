@@ -6,7 +6,9 @@ import _aside from '../../_aside';
 const Perfil = () => {
   return (
     <div className="bg-[#A6DCF1] h-screen flex ">
-      <_aside />
+      <div className='w-[15%]'>
+        <_aside />
+      </div>
       <div className="bg-white h-[90%]   shadow-[0_8px_20px_20px_rgba(0,0,0,0.08)] rounded-xl m-auto  p-20 ml-10 w-[80%] flex flex-col margin-bottom">
         <div className="mb-4 text-center border-[1px]  border-gray-200 rounded-xl ">
           <BiUser className="text-6xl mx-auto" />

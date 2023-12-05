@@ -18,7 +18,7 @@ const  Home = () => {
     <div className='w-[80%]   h-[20rem] min-[2000px]:mt-[2rem]   '>
       <_navbar/>
    
-      <div className='w-[90%] min-[1990px]:justify-around ] overflow-y-scroll  mt-20   flex items-center gap-2 min-[1990px]:h-[26rem]  justify-around  rounded-2xl bg-gradient-to-t from-indigo-700 via-indigo-500 to-indigo-400 '>
+      <div className='w-[90%] min-[1990px]:justify-around ]   mt-20   flex items-center gap-2 min-[1990px]:h-[26rem]  justify-around  rounded-2xl bg-gradient-to-t from-indigo-700 via-indigo-500 to-indigo-400 '>
         <div className='flex flex-col o gap-2  flex-wrap'>
           <p className='text-white font-light mb-10 text-[1rem] ' > Septiembre 3 de 2023</p>
           <h1 className='text-white font-bold text-[2.5rem]'>Bienvenido Estudiante</h1>
