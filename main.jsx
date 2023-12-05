@@ -36,6 +36,8 @@ import RegistroObservador from './src/components/views/Rol-coordinador/registroO
 
 
 
+
+
 //define las rutas de la app de react 
 
 
